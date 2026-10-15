@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Medihive</title>
+ <style>
+body{ margin:0; font-family:Arial; }
+.navbar{
+display:flex;
+background:#222;
+align-items:center;
+}
+a,.dropbtn{
+color:white;
+padding:20px;
+text-decoration:none;
+cursor:pointer;
+}
+.dropdown{ position:relative; }
+.content {
+display:none;
+position:absolute;
+background:#111;
+min-width:180px;
+}
+.content a{display:block;}
+.dropdown:hover .content
+{display:block;}
+a:hover,.dropbtn:hover 
+{background:#333;}
+</style>
+</head>
+<body>
+<div class="navbar">
+<a href="#">Medihive</a>
+<a href="#">Home</a>
+<div class="dropdown">
+<div class="dropbtn">Services</div>
+<div class="content">
+<a href="#">Telemedicine</a>
+<a href="#">Online consultaion</a>
+</div>
+</div>
+<a href="#">Contact</a>
+<a href="#">Login</a>
+<a href="#">Sign up</a>
+</div>
+</body>
+</html>
+
